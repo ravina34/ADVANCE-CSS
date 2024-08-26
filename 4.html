@@ -1,0 +1,39 @@
+<!-- Q. 2 0et’s3now3try3to3implement3the3CSS3transform3and3transition3property.3In3this3coding3challenge,3you3are3 
+expected3to3create3a3simple3webpage3with3an3image3as3shown3in3the3reference3image3below.3Note3that3
+website3responsiveness3is3optional.3On3hovering3the3image3must3be3zoomed3slowly. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Card</title>
+
+    <style>
+      body {
+        overflow: hidden;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        height: 500px;
+        width: 800px;
+        border: 5px solid #000;
+      }
+
+      img:hover {
+        scale: 1.5;
+        transition: 1.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1432fedb88c0d1cc56f4c496a80f251c.jpg"
+      alt="Bangalore View"
+    />
+  </body>
+</html>
